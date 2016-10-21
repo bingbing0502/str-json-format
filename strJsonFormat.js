@@ -71,7 +71,6 @@ function format(str){
 }
 
 function changeString(match,str1,str2,str3,offset,string){
-	console.log(str1,123,str2,456,str3)
 	var newStr1 = str1.replace(/'/g,"\"");
 	if(newStr1  === str1){
 		str2 = str2.replace(/[^\\]"/g,"\"")
